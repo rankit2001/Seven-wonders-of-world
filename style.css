@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Hina Mincho", serif;
+}
+/* ------------------------------------------------------------------------------------------------------------------*/
+/* navigation bar css */
+div.navigation-bar {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  font-size: 30px;
+  padding-bottom: 7px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+div.company-info i {
+  float: left;
+  color: rgb(12, 12, 48);
+}
+div.navigation-bar a {
+  color: black;
+  text-decoration: none;
+  padding: 0px 20px 18px;
+}
+
+div.basic-functions #menu:hover {
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+
+  div.submenu ul{
+    list-style: none;
+    font-size: 20px;
+    background-color: cadetblue;
+    width:125px;
+    text-align: justify;
+    border: 1px solid black;
+    margin-top: 18px;
+    overflow: hidden  ;
+  }
+  div.submenu ul li{
+    border-bottom: 1px solid black;
+  }
+  div.submenu ul li:last-child{
+    border-bottom:none;
+  }
+  div.submenu ul li a:hover{
+    color: white;
+  }
+  div.submenu{
+    display:none; 
+    position: absolute;
+  }
+ 
+  .show-drop{
+    position: relative;
+    display: inline-block;
+  }
+.show-drop:hover div.submenu{
+    display: block;
+    position:absolute;
+  }
+  
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------------------------------------------------*/
+/* intro css */
+div.intro {
+  font-size: large;
+  padding-bottom: 30px;
+}
+div.intro h1 {
+  text-align: left;
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* information pallets css */
+.first-row,
+.second-row,
+.third-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.pallet {
+  width: 250px;
+  height: 430px;
+  box-shadow: 0 2px 4px 0 grey, 0 4px 16px 0 grey;
+  margin-bottom: 40px;
+}
+
+.read-more-button {
+  background-color: grey;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 12px;
+  margin-top: 50px;
+  padding: 10px 30px;
+}
+
+div.info-palllet h2 {
+  text-align: center;
+}
+div.info-pallets p {
+  height: 93.33px;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+a.read-more-button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* Footer css */
+div.footer {
+  background-color: black;
+  color: white;
+}
+/* social-icons */
+div.social-icons {
+  
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+div.social-icons h2 {
+
+  margin-bottom: 20px;
+}
+div.social-icons a {
+  padding: 0px 20px;
+}
+
+/* footer-phrase */
+div.footer p.phrase {
+  font-size: larger;
+  text-align: center;
+}
+/* footer-useful section */
+div.footer-useful {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+div.footer-useful a {
+  padding: 0 30px;
+}
+
+/* mail-sub section */
+#mail {
+  height: 40px;
+  width: 300px;
+ margin-left: 100px;
+  margin-right: 20px;
+  border-radius: 5%;
+}
+
+div.footer p.terms {
+  font-size: small;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+div.mail-sub span{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+div.footer a {
+  background-color: black;
+  color: white;
+  font-size: larger;
+  text-decoration: none;
+}
+.social-icons{
+  display:block ;
+  margin:auto;
+}
+div.social-icons h2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+div.social-icons span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* copyright -section */
+div.footer footer {
+  padding: 10px 2px;
+  text-align: center;
+}
+/* ------------------------------------------------------
+ ------------------------------------------------------------ */
